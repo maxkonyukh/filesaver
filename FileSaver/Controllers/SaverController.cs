@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using FileSaver.Helpers;
 using FileSaver.Models;
 using FileSaver.Services;
 using FileSaver.Services.Interfaces;
@@ -28,21 +29,19 @@ namespace FileSaver.Controllers
             {
                 var guid = Guid.NewGuid().ToString();
 
-                for (int delayLoop = 1; delayLoop < 4; delayLoop++)
+                try
                 {
-                    try
-                    {
-                        System.IO.File.WriteAllText($@"C:\Users\m.konyukh\Desktop\Files\File_{guid}.txt", request.FileContent);
-                    }
-                    catch (Exception ex)
-                    {
-                        _logger.LogError(ex,
-                            "An error occurred writing to the " +
-                            $"database. Error: {ex.Message}");
-                    }
-
-                    await Task.Delay(TimeSpan.FromSeconds(5), token);
+                    await FileHelper.FileWriteAsync($@"C:\Users\m.konyukh\Desktop\Files\File_{guid}.txt",
+                        request.FileContent);
                 }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex,
+                        "An error occurred writing to the " +
+                        $"database. Error: {ex.Message}");
+                }
+
+                await Task.Delay(TimeSpan.FromSeconds(10), token);
             });
 
             return Ok();
