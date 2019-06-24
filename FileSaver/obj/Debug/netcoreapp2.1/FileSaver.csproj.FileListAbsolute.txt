@@ -1,0 +1,14 @@
+C:\Users\m.konyukh\source\repos\FileSaver\FileSaver\bin\Debug\netcoreapp2.1\FileSaver.deps.json
+C:\Users\m.konyukh\source\repos\FileSaver\FileSaver\bin\Debug\netcoreapp2.1\FileSaver.runtimeconfig.json
+C:\Users\m.konyukh\source\repos\FileSaver\FileSaver\bin\Debug\netcoreapp2.1\FileSaver.runtimeconfig.dev.json
+C:\Users\m.konyukh\source\repos\FileSaver\FileSaver\bin\Debug\netcoreapp2.1\FileSaver.dll
+C:\Users\m.konyukh\source\repos\FileSaver\FileSaver\obj\Debug\netcoreapp2.1\FileSaver.csproj.CoreCompileInputs.cache
+C:\Users\m.konyukh\source\repos\FileSaver\FileSaver\obj\Debug\netcoreapp2.1\FileSaver.RazorAssemblyInfo.cache
+C:\Users\m.konyukh\source\repos\FileSaver\FileSaver\obj\Debug\netcoreapp2.1\FileSaver.RazorAssemblyInfo.cs
+C:\Users\m.konyukh\source\repos\FileSaver\FileSaver\obj\Debug\netcoreapp2.1\FileSaver.AssemblyInfoInputs.cache
+C:\Users\m.konyukh\source\repos\FileSaver\FileSaver\obj\Debug\netcoreapp2.1\FileSaver.AssemblyInfo.cs
+C:\Users\m.konyukh\source\repos\FileSaver\FileSaver\obj\Debug\netcoreapp2.1\FileSaver.RazorTargetAssemblyInfo.cache
+C:\Users\m.konyukh\source\repos\FileSaver\FileSaver\bin\Debug\netcoreapp2.1\FileSaver.pdb
+C:\Users\m.konyukh\source\repos\FileSaver\FileSaver\obj\Debug\netcoreapp2.1\FileSaver.dll
+C:\Users\m.konyukh\source\repos\FileSaver\FileSaver\obj\Debug\netcoreapp2.1\FileSaver.pdb
+C:\Users\m.konyukh\source\repos\FileSaver\FileSaver\obj\Debug\netcoreapp2.1\FileSaver.csprojAssemblyReference.cache
